@@ -2,64 +2,64 @@
 import 'package:test_blue_benx/features/coins/domain/entities/roi_entity.dart';
 
 class CoinEntity {
-  String? id;
-  String? symbol;
-  String? name;
-  String? image;
-  double? currentPrice;
-  int? marketCap;
+  String id;
+  String symbol;
+  String name;
+  String image;
+  double currentPrice;
+  double marketCap;
   int? marketCapRank;
   int? fullyDilutedValuation;
-  int? totalVolume;
-  double? high24h;
-  double? low24h;
-  double? priceChange24h;
-  double? priceChangePercentage24h;
-  int? marketCapChange24h;
-  double? marketCapChangePercentage24h;
-  double? circulatingSupply;
-  int? totalSupply;
+  double totalVolume;
+  double high24h;
+  double low24h;
+  double priceChange24h;
+  double priceChangePercentage24h;
+  double marketCapChange24h;
+  double marketCapChangePercentage24h;
+  double circulatingSupply;
+  double? totalSupply;
   double? maxSupply;
-  double? ath;
-  double? athChangePercentage;
-  String? athDate;
-  double? atl;
-  double? atlChangePercentage;
-  String? atlDate;
+  double ath;
+  double athChangePercentage;
+  String athDate;
+  double atl;
+  double atlChangePercentage;
+  String atlDate;
   RoiEntity? roi;
-  String? lastUpdated;
+  String lastUpdated;
   double? priceChangePercentage1yInCurrency;
   double? priceChangePercentage200dInCurrency;
   double? priceChangePercentage24hInCurrency;
   double? priceChangePercentage30dInCurrency;
 
   CoinEntity(
-      {this.id,
-      this.symbol,
-      this.name,
-      this.image,
-      this.currentPrice,
-      this.marketCap,
-      this.marketCapRank,
+      {required this.id,
+      required this.symbol,
+      required this.name,
+      required this.image,
+      required this.currentPrice,
+      required this.marketCap,
+      required this.marketCapRank,
       this.fullyDilutedValuation,
-      this.totalVolume,
-      this.high24h,
-      this.low24h,
-      this.priceChange24h,
-      this.priceChangePercentage24h,
-      this.marketCapChange24h,
-      this.marketCapChangePercentage24h,
-      this.circulatingSupply,
+      required this.totalVolume,
+      required this.high24h,
+      required this.low24h,
+      required this.priceChange24h,
+      required this.priceChangePercentage24h,
+      required this.marketCapChange24h,
+      required this.marketCapChangePercentage24h,
+      required this.circulatingSupply,
       this.totalSupply,
       this.maxSupply,
-      this.ath,
-      this.athChangePercentage,
-      this.athDate,
-      this.atl,
-      this.atlChangePercentage,
-      this.atlDate,
-      this.roi,
-      this.lastUpdated,
+      required this.ath,
+      required this.athChangePercentage,
+      required this.athDate,
+      required this.atl,
+      required this.atlChangePercentage,
+      required this.atlDate,
+      required this.roi,
+      required this.lastUpdated,
       this.priceChangePercentage1yInCurrency,
       this.priceChangePercentage200dInCurrency,
       this.priceChangePercentage24hInCurrency,

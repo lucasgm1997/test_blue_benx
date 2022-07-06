@@ -8,7 +8,10 @@ class CoinRepositoryImp implements ICoinRepository {
   CoinRepositoryImp(this.coinDataSource);
 
   @override
-  Future<List<CoinEntity>> fetchCoins() async {
-    return await coinDataSource.fetchCoins();
-  }
+  Future<List<CoinEntity>> fetchCoins(List<CoinEntity> coins) async =>
+      await coinDataSource.fetchCoins(coins);
+
+  @override
+  Future<CoinEntity> fetchBlueBenxCoinCoin() async =>
+      await coinDataSource.fetchBlueBenxCoinCoin();
 }
