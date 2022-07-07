@@ -63,7 +63,7 @@ class CoinsBloc extends Bloc<CoinsEvent, CoinsState> {
   }
 
   FutureOr<void> timer() async {
-    Future.delayed(const Duration(seconds: 5)).then((value) {
+    Future.delayed(const Duration(seconds: 15)).then((value) {
       add(const CoinsEvent.fetchCoins());
     });
   }
