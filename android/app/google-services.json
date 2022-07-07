@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50378199490",
+    "project_id": "bluebenx-53152",
+    "storage_bucket": "bluebenx-53152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50378199490:android:cb11b2e8b8f6ff131b865b",
+        "android_client_info": {
+          "package_name": "com.example.test_blue_benx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50378199490-njhu10dnapdd2td1jkmd5civ6jn9mln6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncJFhn83_t6HchT-c0PA32XqPzeQ9hbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50378199490-njhu10dnapdd2td1jkmd5civ6jn9mln6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
